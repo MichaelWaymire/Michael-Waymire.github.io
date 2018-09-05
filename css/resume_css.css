@@ -1,0 +1,78 @@
+:root{
+	--bg-color: #E1751C;
+	--profiler: #118787;
+	--boxer: #C81951;
+	
+}
+
+
+#backgroundBodyColor{
+	background-color: var(--bg-color);
+}
+.sideBuffer{
+	/*background-color: aquamarine;*/
+}
+
+.navBar{
+	/*background-color: aquamarine;*/
+	position: relative;
+	z-index: 1000;
+	height: 50px;
+}
+
+.contentBox{
+	background-color: var(--profiler);
+	width: 75%;
+	
+}
+
+.sideBoxContent{
+	background-color: var(--profiler);
+	
+}
+
+.bigMike{
+	float: right;
+	height: 100px;
+	width: 150px;
+	
+}
+
+
+
+/*CSS for Nav Bar*/
+.marginItwithBr{
+	margin: 1em 0 1em 0;
+}
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color: #111;
+}
+
+.active {
+	background-color: #4CAF50;
+}
