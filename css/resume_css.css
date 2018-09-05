@@ -1,7 +1,8 @@
 :root{
-	--bg-color: #E1751C;
-	--profiler: #118787;
-	--boxer: #C81951;
+	--bg-color: #d7cec7;
+	--profiler: #76323f;
+	--boxer: #565656;
+	--shadow: #c09f80;
 	
 }
 
@@ -20,7 +21,24 @@
 	height: 50px;
 }
 
-.contentBox{
+.aboutBox{
+	background-color: var(--profiler);
+	width: 75%;
+	
+}
+
+.introBox{
+	background-color: var(--profiler);
+	width: 75%;
+}
+
+.projectBox{
+	background-color: var(--profiler);
+	width: 75%;
+	
+}
+
+.hobbiesBox{
 	background-color: var(--profiler);
 	width: 75%;
 	
@@ -29,6 +47,12 @@
 .sideBoxContent{
 	background-color: var(--profiler);
 	
+}
+
+.bottomBox{
+	background-color: var(--boxer);
+	height: 75px;
+	z-index: -1000;
 }
 
 .bigMike{
@@ -51,7 +75,7 @@ ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #333;
+	background-color: var(--boxer);
 	position: fixed;
 	top: 0;
 	width: 100%;
